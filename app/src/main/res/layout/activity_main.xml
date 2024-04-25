@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2144F3"
+    android:orientation="vertical"
+    tools:context=".LoginBaggio">
+
+    <ImageView
+        android:layout_width="254dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:src="@drawable/intel" />
+
+
+    <EditText
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="10dp"
+        android:drawableEnd="@drawable/person"
+        android:hint="rafaelluz10"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColorHint="@color/white" />
+
+
+    <EditText
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="20dp"
+        android:drawableEnd="@drawable/senha"
+        android:hint="******************"
+        android:inputType="numberPassword"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="Sign In"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an Account? Create here!"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+
+
+
+</LinearLayout>
